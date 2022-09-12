@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucianorbr/server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucianorbr/server/issues"
+  },
+  "homepage": "https://github.com/lucianorbr/server#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}
